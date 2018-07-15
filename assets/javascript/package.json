@@ -1,0 +1,14 @@
+{
+  "name": "nba-basket-walid",
+  "version": "1.0.0",
+  "description": "NBA sports",
+  "main": "app.js",
+  "scripts": {
+    "test": "hey"
+  },
+  "author": "walid",
+  "license": "ISC",
+  "dependencies": {
+    "sportsdata": "^0.1.19"
+  }
+}
