@@ -1,0 +1,10 @@
+body {
+    background-image: url(https://images.designtrends.com/wp-content/uploads/2015/12/21133013/Basketball-Background1.jpg);
+}
+
+.jumbotron {
+    background-color: rgba(184, 91, 4, 0.76);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+}
