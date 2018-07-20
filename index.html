@@ -12,28 +12,58 @@
 
 </head>
 
-<body>
-    <div class="jumbotron text-center">
-        <h1>CHECK OUT YOUR FAVORITE TEAM SCORE NOW!!!</h1>
-    </div>
 
-    <div class="container-fluid">
+
+<body>
+
+        <header>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <!-- Slide One - Set the background image for this slide in the line below -->
+                        <div class="carousel-item active" style="background-image: url('assets/images/headerimg1.jpg')">
+                            <!-- <h1 class="display-1 text-center" id="titleText">NBA</h1> -->
+        
+                        </div>
+                        <!-- Slide Two - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('assets/images/headerimg2.jpg')">
+                            <!-- <h1 class="display-1 text-center" id="titleText">NBA</h1> -->
+                        </div>
+                        <!-- Slide Three - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('assets/images/headerimg3.jpg')">
+                            <!-- <h1 class="display-1 text-center" id="titleText">NBA</h1> -->
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </header>
+
+
+
+    <div class="container-fluid" style="margin-top: 30px">
         <div class="row">
             <div class="col-md-3">
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <label for="teamInput">Look Up Your Favorite Team Stats</label>
+                        <input type="text" class="form-control" id="teamInput"  placeholder="Enter Team">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="playerInput">Look Up Your Favorite Player Stats</label>
+                        <input type="text" class="form-control" id="playerInput" placeholder="Enter Player">
                     </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
+                    
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
@@ -41,10 +71,10 @@
             <div class="col-md-3"></div>
 
 
-            <div class="col-md-6">
+            <div class="col-md-5 dataBack">
                 <div class="card mb-3">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Team Stats</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
                             content is a little bit longer.</p>
                     </div>
@@ -53,16 +83,16 @@
                 <div class="card mb-3">
 
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Player Stats</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
                             content is a little bit longer.</p>
                     </div>
                 </div>
 
                 <div class="card mb-3">
-                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                    <img class="card-img-top" src="https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2015/12/07080821/shutterstock_271063772-750x500.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">News</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
                             content is a little bit longer.</p>
                     </div>

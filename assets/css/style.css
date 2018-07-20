@@ -2,9 +2,43 @@ body {
     background-image: url(https://images.designtrends.com/wp-content/uploads/2015/12/21133013/Basketball-Background1.jpg);
 }
 
-.jumbotron {
-    background-color: rgba(184, 91, 4, 0.76);
+
+form {
+    background-color:rgba(184, 46, 4, 0.9);
+    padding: 20px;
     border-radius: 20px;
-    padding: 30px;
-    margin-top: 20px;
 }
+
+#titleText {
+    
+    color:rgb(255, 0, 0);
+    font-weight: bolder;
+    
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+label {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dataBack {
+    background-color: rgba(184, 46, 4, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.carousel-item {
+   
+    min-height: 150px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
